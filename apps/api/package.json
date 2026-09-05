@@ -1,0 +1,36 @@
+{
+  "name": "kudos-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "start": "node dist/main.js",
+    "start:dev": "nest start --watch"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/jwt": "^11.0.0",
+    "@nestjs/passport": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "@nestjs/typeorm": "^11.0.0",
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^13.0.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "reflect-metadata": "^0.2.0",
+    "rxjs": "^7.8.0",
+    "typeorm": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.0",
+    "@types/bcryptjs": "^2.4.0",
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/passport-jwt": "^4.0.0",
+    "typescript": "~6.0.2"
+  }
+}

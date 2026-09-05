@@ -1,0 +1,14 @@
+{
+  "name": "kudos",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build:api": "cd apps/api && pnpm run build",
+    "build:web": "cd apps/web && pnpm run build",
+    "build": "pnpm run build:api && pnpm run build:web"
+  },
+  "packageManager": "pnpm@10.34.5"
+}
